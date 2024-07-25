@@ -99,10 +99,7 @@ void loop() {
 }
 </code></pre><div class="zeroclipboard-container">
   
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">ESP8266 从公共通道和私有通道读取。公共通道是 MathWorks 总部的温度（华氏度）。私有通道是一个递增的计数器。</font></font></p>
-<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>#include &lt;ESP8266WiFi.h&gt;
-#include "secrets.h"
-#include "ThingSpeak.h" // always include thingspeak header file after other header files and custom macros
+    
 
 char ssid[] = SECRET_SSID;   // your network SSID (name) 
 char pass[] = SECRET_PASS;   // your network password
